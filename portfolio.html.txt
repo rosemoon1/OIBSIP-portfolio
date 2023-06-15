@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <pre>
+I am Shravya Vashistha, a Software Engineer. 
+Currently I'm pursuing Btech and looking for an opportunity in the same field.
+            
+        </pre>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <pre>This is a Portfolio Website project. It is implemented by using frontend.
+A Portfolio Website an online representation of work you have created, as well as your skills and experiences.</pre>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <pre>
+ENDECRY:
+Endecry is an ENCRYPTION-DECRYPTION project that encyptes any given data by using a private key.
+            </pre>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <table><tr><td>
+        Mobile Number:</td><td> 892222888</td>
+        </tr>
+        <tr><td>Email:</td><td>abd@gmail.com</td></tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
